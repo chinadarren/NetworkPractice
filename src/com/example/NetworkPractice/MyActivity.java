@@ -72,8 +72,7 @@ public class MyActivity extends Activity implements View.OnClickListener {
                         Log.d("MainActivity", "id is " + Person.getId());
                         Log.d("MainActivity", "name is " + Person.getName());
                         Log.d("MainActivity", "version is " + Person.getage());
-
-                    }
+                     }
                     @Override
                     public void onError(Exception e) {
                         //在这里对异常进行处理
